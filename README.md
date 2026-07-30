@@ -1,4 +1,4 @@
-# Spec-Driven Development with Spec Kit & Squad
+# Squad with Spec-Driven Development & Spec Kit 
 
 Build a working app the way modern AI teams do it: **write the spec first, then let a
 team of AI agents implement it.** In about an hour you'll go from an empty folder to a
