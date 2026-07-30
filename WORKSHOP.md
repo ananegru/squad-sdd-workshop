@@ -19,32 +19,6 @@ narrate it out loud.
 
 ---
 
-# Before you begin · Prerequisites check
-
-This workshop runs in a **GitHub Codespace** (or any terminal) and builds on three
-tools: the **GitHub Copilot CLI**, **npm** (Node.js), and **uv** (Python). Before
-Step 1, confirm what you already have. 🖥️ **Terminal:**
-
-```bash
-copilot --version
-npm --version
-uv --version
-```
-
-**What this does:** prints the version of each tool if it's installed. In a fresh
-Codespace, the Copilot CLI and npm are normally already there; `uv` often isn't yet.
-Don't worry if one is missing, the early steps install it:
-
-| Tool | Why you need it | If the check fails |
-|---|---|---|
-| **GitHub Copilot CLI** | Runs the Squad coordinator and your agents | **Step 1** installs or upgrades it |
-| **npm** (Node.js) | Installs the Squad CLI | Codespaces ships it by default; otherwise install Node.js (npm is included) |
-| **uv** (Python) | Runs Spec Kit and your game | **Step 4** installs it |
-
-Once the three checks run, continue to Step 1.
-
----
-
 # Phase 1 · Set up your environment (Steps 1–5)
 
 ## Step 1: Update Copilot in Github Codespaces to the latest version
