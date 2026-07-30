@@ -289,6 +289,19 @@ Spec-kit expert: review the current spec against Spec Kit standards and against 
 
 **What this does:** asks the spec owner to sanity-check its own spec for clarity,
 completeness, and scope creep, and to tighten it *before* code locks the behavior in.
+
+**Now make the spec simpler.** A first spec almost always carries more than a quick
+demo needs. Having just read it, push it back toward the minimum. 💬 **Squad:**
+
+```text
+Spec-kit expert: this spec has more than we need for a simple demo. Simplify it - cut any optional, edge-case, or over-scoped requirements down to the minimum for an interactive CLI Rock-Paper-Scissors game whose happy path works end to end. Update the spec artifact and show me what changed.
+```
+
+**What this does:** turns your review into action. Instead of only noting scope creep,
+you have the spec owner trim the spec to its essentials, matching the "no gold-plating"
+definition of done you set in Step 6. Because the plan and tasks are generated *from*
+the spec, cutting scope here keeps the entire downstream chain lean.
+
 When you're happy, let the team proceed to `implement`. 💬 **Squad:**
 
 ```text
