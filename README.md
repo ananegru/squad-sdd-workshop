@@ -112,7 +112,7 @@ Two habits make it smooth:
 
 ## Start here
 
-➡️ Open **[WORKSHOP.md](WORKSHOP.md)** and follow the steps in order.
+Open **[WORKSHOP.md](WORKSHOP.md)** and follow the steps in order.
 
 > **Heads-up: these tools move fast.** Squad and Spec Kit are early and evolve
 > quickly, and the exact agent names, models, and file details you see may differ
