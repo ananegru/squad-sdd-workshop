@@ -140,7 +140,7 @@ After this, commands like `/speckit.constitution`, `/speckit.specify`, `/speckit
 `/speckit.tasks`, and `/speckit.implement` are available inside Copilot. **You won't run
 these by hand**: your Squad's spec expert drives them for you in Phase 3.
 
-✅ **Environment check.** You should now have four things working: the latest
+**Environment check.** You should now have four things working: the latest
 `copilot`, `squad`, `uv`, and Spec Kit initialized in your repo.
 
 ---
