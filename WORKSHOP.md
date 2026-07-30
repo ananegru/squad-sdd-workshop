@@ -294,7 +294,7 @@ completeness, and scope creep, and to tighten it *before* code locks the behavio
 demo needs. Having just read it, push it back toward the minimum. 💬 **Squad:**
 
 ```text
-Spec-kit expert: this spec has more than we need for a simple demo. Simplify it - cut any optional, edge-case, or over-scoped requirements down to the minimum for an interactive CLI Rock-Paper-Scissors game whose happy path works end to end. Update the spec artifact and show me what changed.
+After seeing the spec, make it simpler.
 ```
 
 **What this does:** turns your review into action. Instead of only noting scope creep,
