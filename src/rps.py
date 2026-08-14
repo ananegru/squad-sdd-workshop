@@ -46,11 +46,24 @@ def outcome(player, comp):
 
 
 def main():
+    you = 0
+    computer = 0
+    ties = 0
     while True:
         player = prompt_move()
         comp = random.choice(['rock', 'paper', 'scissors'])
         print(f"Computer chose: {comp}")
-        print(f"Result: {outcome(player, comp)}")
+        res = outcome(player, comp)
+        print(f"Result: {res}")
+        # update counters
+        if res == "You win.":
+            you += 1
+        elif res == "You lose.":
+            computer += 1
+        else:
+            ties += 1
+        # print exact score summary line
+        print(f"Score - You: {you} Computer: {computer} Ties: {ties}")
         if not prompt_play_again():
             sys.exit(0)
 
