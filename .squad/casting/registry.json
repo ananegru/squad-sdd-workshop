@@ -1,0 +1,46 @@
+{
+  "agents": {
+    "speckit": {
+      "name": "SpecKit",
+      "role": "Spec-Kit Expert",
+      "charter": ".squad/agents/spec-kit/charter.md",
+      "status": "active",
+      "created_at": "2026-08-14T11:53:07+02:00"
+    },
+    "planner": {
+      "name": "Planner",
+      "role": "Planner (PoC)",
+      "charter": ".squad/agents/planner/charter.md",
+      "status": "active",
+      "created_at": "2026-08-14T11:53:07+02:00"
+    },
+    "implementer": {
+      "name": "Implementer",
+      "role": "Implementer (Python)",
+      "charter": ".squad/agents/implementer/charter.md",
+      "status": "active",
+      "created_at": "2026-08-14T11:53:07+02:00"
+    },
+    "tester": {
+      "name": "Tester",
+      "role": "Tester (smoke)",
+      "charter": ".squad/agents/tester/charter.md",
+      "status": "active",
+      "created_at": "2026-08-14T11:53:07+02:00"
+    },
+    "scribe": {
+      "name": "Scribe",
+      "role": "Session Logger",
+      "charter": ".squad/agents/scribe/charter.md",
+      "status": "active",
+      "created_at": "2026-08-14T11:53:07+02:00"
+    },
+    "admin": {
+      "name": "Admin",
+      "role": "Admin / Ops (lightweight)",
+      "charter": ".squad/agents/admin/charter.md",
+      "status": "active",
+      "created_at": "2026-08-14T11:53:07+02:00"
+    }
+  }
+}
