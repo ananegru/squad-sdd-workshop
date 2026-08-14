@@ -22,6 +22,7 @@ Squad v0.12.0
 | Tester | Tester (smoke) | .squad/agents/tester/charter.md | active |
 | Scribe | Session Logger | .squad/agents/scribe/charter.md | active |
 | Admin | Admin / Ops (lightweight) | .squad/agents/admin/charter.md | active |
+| Scrum Master | Scrum Master | .squad/agents/scrum-master/charter.md | active |
 
 ## Coding Agent
 
